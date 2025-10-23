@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redex Aqua Solutions</title>
+    <!-- Preload critical images for faster LCP -->
+    <link rel="preload" href="https://i.postimg.cc/dtVDBCn3/Whats-App-Image-2025-10-22-at-16-49-02.jpg" as="image" fetchpriority="high">
+    <link rel="preload" href="https://i.postimg.cc/tTDpZS0j/Whats-App-Image-2025-10-22-at-16-50-09.jpg" as="image" fetchpriority="high">
+    <!-- Preload above-the-fold product images -->
+    <link rel="preload" href="https://i.postimg.cc/Kjvj4fbL/Gemini-Generated-Image-c4i0wac4i0wac4i0.png" as="image" fetchpriority="high">
+    <link rel="preload" href="https://i.postimg.cc/vZPLQ9Hv/Add-a-little-bit-of-body-text-8-1-1.png" as="image" fetchpriority="high">
+    <link rel="preload" href="https://i.postimg.cc/wB7767wH/Gemini-Generated-Image-2centw2centw2cen.png" as="image" fetchpriority="high">
+    <link rel="preload" href="https://i.postimg.cc/hvwmBVq8/Gemini-Generated-Image-zi0awnzi0awnzi0a.png" as="image" fetchpriority="high">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#76c7c0',
+              'brand-secondary': '#00a8cc',
+              'brand-light': '#b9e0dd',
+              'brand-dark': '#2a6f6a',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: 0, transform: 'translateY(10px)' },
+                '100%': { opacity: 1, transform: 'translateY(0)' },
+              },
+              pulse: {
+                '50%': { opacity: .75 },
+              },
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.3s ease-in-out',
+              'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-image: url('https://i.postimg.cc/DZ6Z1QJc/Gemini-Generated-Image-70kg7m70kg7m70kg.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .dark body {
+        background-color: #111827; /* gray-900 */
+        background-image: none;
+      }
+      .article-content {
+        --font-size-multiplier: 1; /* Default value */
+      }
+      .article-content p {
+        font-size: calc(1rem * var(--font-size-multiplier));
+        line-height: 1.8;
+        margin-bottom: 1.25rem;
+        transition: font-size 0.2s ease-in-out;
+      }
+      .article-content ul {
+        font-size: calc(1rem * var(--font-size-multiplier));
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 1rem;
+        margin-bottom: 1.25rem;
+        transition: font-size 0.2s ease-in-out;
+      }
+      .article-content li {
+        margin-bottom: 0.5rem;
+        line-height: 1.8;
+      }
+      .article-content h4 {
+        font-size: calc(1.25rem * var(--font-size-multiplier));
+        font-weight: 800;
+        letter-spacing: 0.025em;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        line-height: 1.4;
+        color: #2a6f6a;
+        border-bottom: 1px solid #ddecee;
+        transition: font-size 0.2s ease-in-out;
+      }
+      .dark .article-content h4 {
+        color: #76c7c0; /* brand-primary */
+        border-bottom-color: #374151; /* gray-700 */
+      }
+      .article-content > *:last-child {
+        margin-bottom: 0;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
